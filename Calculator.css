@@ -1,0 +1,56 @@
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px -10px 20px rgba(170, 174, 234, 0.5),
+    /* Top and right shadow with increased spread */ -10px 10px 20px rgb(232, 154, 189); /* Left and bottom shadow with increased spread */
+
+  width: 300px;
+  height: 350px;
+  margin: 20px auto;
+}
+
+.input-container input {
+  height: 30px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.result {
+  margin-top: 10px;
+}
+
+.error-title {
+  color: red;
+  font-weight: bold;
+}
+
+.success-message {
+  color: rgb(0 87 255);
+  font-weight: bold;
+}
